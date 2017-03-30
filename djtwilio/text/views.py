@@ -6,5 +6,5 @@ from twilio.twiml import Response
 
 @csrf_exempt 
 def sms(request):
-	twiml = '<Response><Message>HYU Hello from your Django app!</Message></Response>'
+	twiml = '<Response><Message>Welcome to Practical Programming, Please go upstairs, third floor, Doorcode is 1212*</Message></Response>'
 	return HttpResponse(twiml, content_type='text/xml')
