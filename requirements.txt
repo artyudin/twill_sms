@@ -1,0 +1,6 @@
+Django==1.10.6
+httplib2==0.10.3
+PySocks==1.6.7
+pytz==2016.10
+six==1.10.0
+twilio==5.7.0
